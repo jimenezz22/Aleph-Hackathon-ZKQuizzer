@@ -81,3 +81,4 @@ Thumbs.db
 *.json
 !src/assets/*.json
 *.key
+.vercel
