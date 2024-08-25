@@ -3,11 +3,54 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+  }
+
+  .wallet {
+    text-align: center;
+    background: #ffffff; /* Fondo blanco para un alto contraste */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin: 20px;
+    color: #333;
+  }
+
+/* Estilos para encabezados dentro de .wallet */
+.wallet h1, .wallet h2 {
+  color: #333; /* Color oscuro para encabezados */
+  margin: 0;
+}
+
+  .wallet button {
+    padding: 10px 20px;
+    background-color: #007bff; /* Fondo del botón */
+    color: black; /* Texto en el botón */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+    font-size: 1rem;
+  }
+  
+  .wallet button:hover {
+    background-color: #0056b3; /* Color de fondo del botón en hover */
+  }
+  
+  /* Estilos para los campos de formulario dentro de .wallet */
+  .wallet input, .wallet select {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 300px;
+    font-size: 1rem;
   }
   
   h1, h2 {
@@ -58,6 +101,19 @@ body {
       width: 100%;
       padding: 15px 0;
     }
+
+    .wallet {
+      width: 90%;
+    }
+  
+    .wallet button {
+      width: 100%;
+      padding: 15px 0;
+    }
+  
+    .wallet input, .wallet select {
+      max-width: 100%;
+    }
   }
   
   @media (max-width: 480px) {
@@ -70,6 +126,18 @@ body {
     }
   
     button {
+      font-size: 1rem;
+    }
+
+    .wallet h1 {
+      font-size: 1.5rem;
+    }
+  
+    .wallet h2 {
+      font-size: 1.25rem;
+    }
+  
+    .wallet button {
       font-size: 1rem;
     }
   }
