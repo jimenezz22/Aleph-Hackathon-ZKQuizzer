@@ -65,16 +65,4 @@ Las contribuciones son bienvenidas. Para contribuir, por favor sigue estos pasos
 3. **Realiza tus cambios y haz commit**: `git commit -am 'Añadir nueva característica'`
 4. **Envía un pull request**.
 
-## Licencia
-
-Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
-
-## Contacto
-
-Para cualquier pregunta o comentario, por favor contacta a [tu-email@ejemplo.com](mailto:tu-email@ejemplo.com).
-
----
-
-Gracias por visitar el repositorio de zk-Quizzer. ¡Esperamos que disfrutes usando nuestra aplicación de quizzes basada en Zero Knowledge!
-
-
+Gracias por visitar el repositorio de zk-Quizzer. ¡Esperamos que disfrutes usando nuestra aplicación de quizzes basada en Zero Knowledge para aprender Zero Knowledge
