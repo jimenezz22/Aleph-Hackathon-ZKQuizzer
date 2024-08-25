@@ -1,46 +1,80 @@
 # Aleph-Hackathon-ZKQuizzer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**zk-Quizzer** es una aplicación de quizzes basada en Zero Knowledge (ZK) que utiliza React para el frontend y Avalanche para el backend. La aplicación permite a los usuarios participar en quizzes interactivos y almacenar la información de manera segura en la blockchain utilizando la tecnología de pruebas de conocimiento cero.
 
-## Available Scripts
+## Características
 
-In the project directory, you can run:
+- **Interfaz de usuario**: Una interfaz amigable y responsiva construida con React y TypeScript.
+- **Conexión con MetaMask**: Permite a los usuarios conectarse a su billetera MetaMask para interactuar con la blockchain.
+- **Backend en Avalanche**: Utiliza la red Avalanche Fuji para desplegar y gestionar contratos inteligentes.
+- **Seguridad y Privacidad**: Implementa tecnología Zero Knowledge para asegurar la privacidad de los usuarios y la integridad de las respuestas.
 
-### `npm start`
+## Tecnologías Utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **Frontend**: React, TypeScript, CSS
+- **Backend**: Avalanche Fuji
+- **Blockchain**: Zero Knowledge Proofs (ZKPs)
+- **Wallet**: MetaMask
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Instalación
 
-### `npm test`
+Para ejecutar el proyecto localmente, sigue estos pasos:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Clona el repositorio**:
 
-### `npm run build`
+    ```bash
+    https://github.com/jimenezz22/Aleph-Hackathon-ZKQuizzer.git
+    cd zk-Quizzer
+    ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. **Instala las dependencias**:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    ```bash
+    npm install
+    ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. **Ejecuta el proyecto**:
 
-### `npm run eject`
+    ```bash
+    npm start
+    ```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+    Esto iniciará el servidor de desarrollo y podrás ver la aplicación en [http://localhost:3000](http://localhost:3000).
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Despliegue
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+El proyecto está desplegado en Vercel. Puedes acceder a la aplicación en el siguiente enlace:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+[zk-Quizzer en Vercel](https://zk-quizzer-m6ghw43s7-jimenezz22s-projects.vercel.app/)
 
-## Learn More
+## Uso
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. **Conecta tu billetera MetaMask**: Haz clic en el botón de conexión en la parte superior derecha para conectar tu billetera MetaMask.
+2. **Participa en un quiz**: Navega a la sección de quizzes y responde a las preguntas.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contratos Inteligentes
+
+El proyecto utiliza contratos inteligentes desplegados en la red Avalanche Fuji. Los contratos están diseñados para gestionar la lógica de los quizzes y asegurar la privacidad de las respuestas. Los contratos están ubicados en el directorio `contracts/` y se despliegan usando Hardhat.
+
+## Contribuciones
+
+Las contribuciones son bienvenidas. Para contribuir, por favor sigue estos pasos:
+
+1. **Haz un fork del repositorio**.
+2. **Crea una rama para tu característica**: `git checkout -b mi-nueva-caracteristica`
+3. **Realiza tus cambios y haz commit**: `git commit -am 'Añadir nueva característica'`
+4. **Envía un pull request**.
+
+## Licencia
+
+Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
+
+## Contacto
+
+Para cualquier pregunta o comentario, por favor contacta a [tu-email@ejemplo.com](mailto:tu-email@ejemplo.com).
+
+---
+
+Gracias por visitar el repositorio de zk-Quizzer. ¡Esperamos que disfrutes usando nuestra aplicación de quizzes basada en Zero Knowledge!
+
+
