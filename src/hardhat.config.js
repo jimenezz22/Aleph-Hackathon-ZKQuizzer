@@ -1,4 +1,7 @@
 require("@nomiclabs/hardhat-waffle");
+import { HardhatUserConfig } from "hardhat/config";
+import "@nomiclabs/hardhat-ethers";
+import "@nomiclabs/hardhat-chai-matchers";
 
 module.exports = {
   solidity: "0.8.18",
@@ -13,3 +16,5 @@ module.exports = {
     }
   }
 };
+
+export default config;
